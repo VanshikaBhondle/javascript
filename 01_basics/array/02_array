@@ -1,0 +1,32 @@
+const heros=["srk","rk","ab"]
+const heroine=["shilpa","kareena","alia"]
+
+//heros.push(heroine)
+// array ne ek single array ko as a single element  le liya
+
+// console.log(heros);
+// console.log(heros [3][1]);
+
+ const all_hero=heros.concat(heroine);
+//console.log(heros);
+// console.log(all_hero);
+// const all_new_hero=[...heros,...heroine];
+// console.log(all_new_hero);
+
+
+const another_array=[1,2,3,[4,5,6],7,[6,7,[4,5]]]
+const real_another_array= another_array.flat(Infinity)
+console.log(real_another_array);
+// single array me dalega sabko
+
+// console.log(Array.isArray("hitesh"));
+// console.log(Array.from("hitesh")); // convert krega isko array me
+// console.log(Array.from({name:"hitesh"}));//**interestting**// return krega empty array because ye direct  convert  nhi kr payega
+
+
+let score1=100
+let score2=200
+let score3=300
+
+console.log(Array.of(score1,score2,score3));
+
