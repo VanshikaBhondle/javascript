@@ -11,7 +11,7 @@ let name= vansh
 let age =20
 let isLoggedIn= true
 let state = null
-
+// datatypes we will see in js 
 // number => 2 to power 53
 // big int
 // string " "
