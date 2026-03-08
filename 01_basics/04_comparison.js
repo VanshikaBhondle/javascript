@@ -6,7 +6,7 @@ console.log(null >0);
 console.log(null == 0);
 console.log(null>=0);// null treat itself as 0 
 
-
+//avoid this null and undefined
 console.log(undefined ==0);
 console.log(undefined > 0);
 console.log(undefined < 0);
