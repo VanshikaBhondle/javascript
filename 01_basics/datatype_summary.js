@@ -11,6 +11,9 @@ let userEmail;
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
+//Why does this return false?
+//Even though both have the description "123", each Symbol is unique.
+// Symbols are mainly used to create unique keys in objects so that properties do not accidentally overwrite each other.
 
 console.log(id === anotherId);
 
@@ -35,11 +38,11 @@ console.log(id === anotherId);
 
 // Array, Objects, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
+const heros = ["shaktiman", "naagraj", "doga"];// array.
 let myObj = {
     name: "hitesh",
     age: 22,
-}
+} // objects.
 
 const myFunction = function(){
     console.log("Hello world");
@@ -48,11 +51,8 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
-
-
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-// stack (primitive)  copy milta hai && heap(Non- primitive)me reference milta hai
+// stack (primitive)  copy milta hai && heap (Non- primitive) me reference milta hai
 
 let myYoutubename = "hiteshchoudhary"
 anothername ="chaiaurcode"
@@ -62,13 +62,9 @@ console.log(myYoutubename);
 console.log(anothername);
 let userOne = { 
     email: "user@google.com"
-    
-
 }
 let userTwo = userOne
-
 userTwo.email="hitesh@google.com"
-
 console.log(userOne.email);
 console.log(userTwo.email);
 
