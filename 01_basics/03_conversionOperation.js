@@ -43,18 +43,18 @@ let str3 = str1+ str2
 // console.log(str3);
 // console.log(1+"2");
 // console.log("1"+2);
-// console.log("1"+2+2);
-// console.log(1+2+"2");
+// console.log("1"+2+2); //122 because first value string h so it will be 122
+// console.log(1+2+"2"); // here first value is int 1+2=3 then string 2 is there so it will be now 32.
 // console.log((3+4)*5%3);
 
-// console.log(+true);
-// console.log(+"");
+// console.log(+true); // not allowed
+// console.log(+""); //not prefered both 
 
 let num1,num2,num3
 num1=num2=num3= 2+2
 
 let gamecounter=100
-gamecounter++;
+gamecounter++; //pre and post increment thing  which we already know in c++.
 console.log(gamecounter);
 
 
